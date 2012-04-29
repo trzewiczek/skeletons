@@ -1,0 +1,9 @@
+body {
+  width: 960px;
+  margin: 10px auto;
+
+  font-family: sans-serif;
+  font: 16px/1.5em;
+
+  color: #333;
+}

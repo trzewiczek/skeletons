@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Jekyll Scaffold</title>
+  <link href="http://Jekyll_Scaffold/atom.xml" rel="self"/>
+  <updated>2012-04-26T18:42:35+02:00</updated>
+  <id>http://trzewiczek.info/</id>
+  <author>
+    <name>dr Jekyll</name>
+    <email>jekyll@scaffold.rb</email>
+  </author>
+
+  
+  <entry>
+    <title>Jekyll Scaffold</title>
+    <link href="http://Jekyll_Scaffold.rb/1410/07/15/Jekyll-Scaffold.html"/>
+    <updated>1410-07-15T00:00:00+01:24</updated>
+    <id>http://Jekyll_Scaffold.rb//1410/07/15/Jekyll-Scaffold</id>
+    <content type="html"><p>This is an example of Jekyll Scaffold Post.</p></content>
+  </entry>
+  
+
+</feed>

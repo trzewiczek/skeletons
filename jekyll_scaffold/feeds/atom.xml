@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Jekyll Scaffold</title>
+  <link href="http://Jekyll_Scaffold/atom.xml" rel="self"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://trzewiczek.info/</id>
+  <author>
+    <name>dr Jekyll</name>
+    <email>jekyll@scaffold.rb</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="http://Jekyll_Scaffold.rb{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://Jekyll_Scaffold.rb/{{ post.id }}</id>
+    <content type="html">{{ post.content }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>
